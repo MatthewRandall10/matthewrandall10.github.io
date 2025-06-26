@@ -8,12 +8,10 @@ site-twitter: # Optional
 
 # Author Settings
 author: Matthew Randall
-author-img: linkedin-2.jpg # Your uploaded profile image in assets/img/
+author-img: linkdin-2.jpg # Your uploaded profile image in assets/img/
 about-author: Electrical Engineering student at UC Santa Cruz. Interested in embedded systems, circuit design, and technical sales.
-social-twitter: 
-social-facebook: 
 social-github: MatthewRandall10
-social-linkedin: https://www.linkedin.com/in/matthew-randall/
+social-linkedin: https://www.linkedin.com/in/mrandall10/
 social-email: matthewsrandall10@gmail.com
 
 # Disqus (optional for blog comments)
