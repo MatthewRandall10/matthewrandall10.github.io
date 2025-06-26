@@ -3,7 +3,7 @@ layout: post
 title: Power Electronics Work
 #date: 2025-06-25 13:32:20 +0300
 description: Power Electronics work including simulink for DC-DC Coverters, AC-DC Converts, Inverters 
-img:  # Add image post (optional)
+img:  transformer.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
