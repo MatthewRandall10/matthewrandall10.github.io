@@ -1,42 +1,23 @@
-# Site settings
 title: Matthew Randall
-email: your-email@example.com
-description: >-
+description: > # this means to ignore newlines until "baseurl:"
   Electrical engineering student passionate about embedded systems, signal processing, and applying technology to real-world problems.
-baseurl: "" # leave this blank for user/organization pages
-url: "https://matthewrandall10.github.io" # no trailing slash
-github_username: MatthewRandall10
+permalink: ':title/'
+baseurl: "" # Leave blank if using matthewrandall10.github.io directly
+url: "https://matthewrandall10.github.io"
+site-twitter: # Optional
 
-# Author settings
-author:
-  name: Matthew Randall
-  avatar: linkedin-2.jpg
-  bio: >
-    Electrical Engineering student at UC Santa Cruz. Interested in embedded systems, circuit design, and technical sales.
+# Author Settings
+author: Matthew Randall
+author-img: linkedin-2.jpg # Your uploaded profile image in assets/img/
+about-author: Electrical Engineering student at UC Santa Cruz. Interested in embedded systems, circuit design, and technical sales.
+social-twitter: 
+social-facebook: 
+social-github: MatthewRandall10
+social-linkedin: https://www.linkedin.com/in/matthew-randall/
+social-email: matthewsrandall10@gmail.com
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
+# Disqus (optional for blog comments)
+discus-identifier: # Leave blank if not using Disqus
 
-# Permalinks
-permalink: /:year/:month/:day/:title/
-
-# Social Links (optional)
-social:
-  github: https://github.com/MatthewRandall10
-  linkedin: https://www.linkedin.com/in/matthew-randall/
-  email: matthewsrandall10@gmail.com
-
-# Google Analytics (optional)
-google_analytics: ""
-
-# Exclude files from build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
+# Tracker (optional for Google Analytics)
+analytics: # Add your Google Analytics tracking ID here (e.g., G-XXXXXXXXXX)
